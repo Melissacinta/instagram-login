@@ -1,0 +1,157 @@
+body {
+    background: #FAFAFA;
+}
+a{
+    text-decoration: none;
+}
+main {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.form-div,
+.reg-div {
+    background-color: #ffffff;
+    max-width: 350px;
+    box-sizing: border-box;
+    padding: 40px 28px 10px;
+    border: 1px solid gainsboro;
+    position: relative;
+}
+form a{
+    color :#385185
+}
+.reg-div a{
+    color: #0095f6;
+}
+
+.reg-div p{
+    padding: 10px 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+form a span, .reg-div a{
+    font-weight: bold;
+}
+.form-div .img{
+    padding: 0 10px 28px;
+}
+.insta-logo {
+    width: 175px;
+}
+
+.btn-primary {
+    font-weight: bold;
+}
+
+footer {
+    opacity: 0.7;
+    text-align: center;
+    font-size: 12px;
+    padding: 20px 10px;
+    margin-top: 80px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+ul li a:hover {
+    color: black;
+}
+
+.links {
+    flex: 0 0 auto;
+    margin-bottom: 0;
+}
+
+.links .links:last-child {
+    margin-bottom: 16px;
+}
+
+.img-div .img {
+    background: url('images/phone2.png');
+    width: 500px;
+    background-size: cover;
+    margin-left: -35px;
+    margin-right: -15px;
+    /* padding: 40px; */
+    align-self: center;
+    height: 618px;
+    position: relative;
+}
+
+.img-div img {
+    width: 246px;
+    position: absolute;
+    top: 96px;
+    right: 56px;
+    border: 2px solid black;
+}
+
+p a img {
+    width: 20px;
+}
+
+.left-div {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.stores {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: -12px;
+}
+
+.stores img {
+    height: 40px;
+}
+.or-line{
+    position: relative;
+    padding: 10px 0;
+}
+
+.or-line span{
+    padding: 10px 15px;
+background: #ffffff;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+.btn-primary:disabled {
+    background-color: rgba(0,149,246,.3);
+    border-color: rgba(0,149,246,.3);
+}
+select{
+    max-width: 100px;
+    border: none;
+    width: 60px;
+    background-color: transparent;
+}
+@media screen and (max-width: 875px) {
+    .img-div{
+        display: none;
+    }
+}
